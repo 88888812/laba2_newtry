@@ -1,4 +1,9 @@
-#include <isotream>
- using namespace std;
-
-int main() { cout « "Hello, world!"; return 0; }
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+string name;
+cin » name;
+cout « "Hello World!"«name;
+}
